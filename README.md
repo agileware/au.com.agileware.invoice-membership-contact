@@ -15,7 +15,7 @@ The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
 ## Installation (Web UI)
 
-[Download the extension](https://github.com/agileware/au.com.agileware.invoice-membership-contact/archive/1.0.0.zip),
+[Download the extension](https://github.com/agileware/au.com.agileware.invoice-membership-contact/archive/1.2.zip),
 and extract into your custom extensions directory, then enable via the
 Extensions admin page (normally Administer » System Settings » Extensions)
 

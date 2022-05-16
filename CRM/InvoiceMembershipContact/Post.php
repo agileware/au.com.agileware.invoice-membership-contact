@@ -41,7 +41,10 @@ class CRM_InvoiceMembershipContact_Post {
 
             // Update Contribution with Membership's Contact ID
             $contribution['contact_id'] = $membership['contact_id'];
-            civicrm_api3('Contribution', 'create', $contribution);
+            civicrm_api3('Contribution', 'create', [
+              'id' => $contribution['id'],
+              'contact_id' => $membership['contact_id']
+              ]);
 
             // Process soft credit
             civicrm_api3('ContributionSoft', 'create', $soft_credit);
