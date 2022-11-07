@@ -20,5 +20,6 @@
   </compatibility>
   <civix>
     <namespace>CRM/InvoiceMembershipContact</namespace>
+    <format>22.05.2</format>
   </civix>
 </extension>
